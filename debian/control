@@ -1,0 +1,12 @@
+Source: ros-hydro-iai-pancake-perception-action
+Section: misc
+Priority: extra
+Maintainer: TODO <TODO@TODO.COM>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-actionlib-msgs, ros-hydro-catkin, ros-hydro-geometry-msgs, ros-hydro-message-generation, ros-hydro-message-runtime
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-hydro-iai-pancake-perception-action
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-actionlib-msgs, ros-hydro-geometry-msgs, ros-hydro-message-runtime
+Description: Action interface to trigger perception of pancake oven and pancake.
