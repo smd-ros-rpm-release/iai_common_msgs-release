@@ -1,0 +1,12 @@
+Source: ros-groovy-dna-extraction-msgs
+Section: misc
+Priority: extra
+Maintainer: ferenc <ferenc@todo.todo>
+Build-Depends: debhelper (>= 7.0.50~), ros-groovy-catkin, ros-groovy-geometry-msgs, ros-groovy-message-generation
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-groovy-dna-extraction-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-geometry-msgs, ros-groovy-message-runtime
+Description: Message definitions for controlling DNA extraction related actions in the ACAT project context
