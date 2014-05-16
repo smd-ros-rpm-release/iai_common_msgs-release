@@ -1,0 +1,12 @@
+Source: ros-groovy-mln-robosherlock-msgs
+Section: misc
+Priority: extra
+Maintainer: Ferenc Balint-Benczedi <balintbe@cs.uni-bremen.de>
+Build-Depends: debhelper (>= 7.0.50~), ros-groovy-catkin, ros-groovy-message-generation
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-groovy-mln-robosherlock-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-message-runtime
+Description: Message definitions for communicating between the RoboSherlock perception system and the MLN PRAC inference machine
