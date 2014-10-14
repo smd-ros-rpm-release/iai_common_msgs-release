@@ -2,6 +2,9 @@
 Changelog for package designator_integration_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.3 (2014-10-14)
+------------------
+
 0.0.1 (2014-05-16)
 ------------------
 * Cleaned up CMakeLists.txt
