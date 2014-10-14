@@ -1,0 +1,12 @@
+Source: ros-indigo-mln-robosherlock-msgs
+Section: misc
+Priority: extra
+Maintainer: Ferenc Balint-Benczedi <balintbe@cs.uni-bremen.de>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-message-generation
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-mln-robosherlock-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-message-runtime
+Description: Message definitions for communicating between the RoboSherlock perception system and the MLN PRAC inference machine
