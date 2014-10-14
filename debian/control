@@ -1,0 +1,12 @@
+Source: ros-groovy-scanning-table-msgs
+Section: misc
+Priority: extra
+Maintainer: TODO <todo@todo.com>
+Build-Depends: debhelper (>= 9.0.0), ros-groovy-actionlib-msgs, ros-groovy-catkin, ros-groovy-message-generation, ros-groovy-message-runtime
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-groovy-scanning-table-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-actionlib-msgs, ros-groovy-message-runtime, ros-groovy-std-msgs
+Description: catkinized common interface for turn table
