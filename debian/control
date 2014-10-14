@@ -1,0 +1,12 @@
+Source: ros-hydro-designator-integration-msgs
+Section: misc
+Priority: extra
+Maintainer: Jan Winkler <winkler@cs.uni-bremen.de>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-catkin, ros-hydro-geometry-msgs, ros-hydro-message-generation
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-hydro-designator-integration-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-geometry-msgs, ros-hydro-message-runtime
+Description: Message definitions for communicating serialized designators through ROS topics and services.
