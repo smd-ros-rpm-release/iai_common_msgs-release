@@ -1,3 +1,36 @@
+## iai_common_msgs (hydro) - 0.0.3-0
+
+The packages in the `iai_common_msgs` repository were released into the `hydro` distro by running `/usr/bin/bloom-release iai_common_msgs --track hydro --rosdistro hydro` on `Tue, 14 Oct 2014 08:09:37 -0000`
+
+These packages were released:
+- `data_vis_msgs`
+- `designator_integration_msgs`
+- `dna_extraction_msgs`
+- `grasp_stability_msgs`
+- `iai_common_msgs`
+- `iai_content_msgs`
+- `iai_kinematics_msgs`
+- `iai_robosherlock_actions`
+- `mln_robosherlock_msgs`
+- `saphari_msgs`
+- `scanning_table_msgs`
+- `sherlock_sim_msgs`
+
+Version of package(s) in repository `iai_common_msgs`:
+- upstream repository: https://github.com/code-iai/iai_common_msgs.git
+- release repository: https://github.com/code-iai-release/iai_common_msgs-release.git
+- rosdistro version: `0.0.2-0`
+- old version: `0.0.2-0`
+- new version: `0.0.3-0`
+
+Versions of tools used:
+- bloom version: `0.5.12`
+- catkin_pkg version: `0.2.4`
+- rosdep version: `0.10.30`
+- rosdistro version: `0.3.5`
+- vcstools version: `0.1.35`
+
+
 ## iai_common_msgs (groovy) - 0.0.3-0
 
 The packages in the `iai_common_msgs` repository were released into the `groovy` distro by running `/usr/bin/bloom-release iai_common_msgs --track groovy --rosdistro groovy` on `Tue, 14 Oct 2014 07:58:58 -0000`
