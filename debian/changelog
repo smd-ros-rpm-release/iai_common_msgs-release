@@ -1,0 +1,20 @@
+ros-groovy-iai-common-msgs (0.0.3-0quantal) quantal; urgency=high
+
+  * Renamed iai_pancake_perception_action into iai_robosherlock_actions.
+  * Contributors: Georg Bartels
+
+ -- AI Robotics <ai-robotics@cs.uni-bremen.de>  Mon, 13 Oct 2014 22:00:00 -0000
+
+ros-groovy-iai-common-msgs (0.0.1-0quantal) quantal; urgency=high
+
+  * Added all message packages in iai_common_msgs as dependencies
+  * Corrected version numbers
+  * Added package descriptions and fixed licenses where applicable
+  * Removed old msgs definitions and references, plus the mln_robosherlock_msgs dependency
+  * Corrected some information in package.xml and CMakeLists.txt as reported by catkin_lint
+  * catkinezed pancake perception added metapackage
+  * Contributors: Ferenc Balint-Benczedi, Jan Winkler
+
+ -- AI Robotics <ai-robotics@cs.uni-bremen.de>  Thu, 15 May 2014 22:00:00 -0000
+
+
