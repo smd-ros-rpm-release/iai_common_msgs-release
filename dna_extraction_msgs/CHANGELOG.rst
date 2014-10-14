@@ -2,6 +2,9 @@
 Changelog for package dna_extraction_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.3 (2014-10-14)
+------------------
+
 0.0.1 (2014-05-16)
 ------------------
 * Added non-meaningless description to dna_extraction_msgs package
