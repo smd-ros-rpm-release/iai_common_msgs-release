@@ -1,0 +1,12 @@
+Source: ros-groovy-iai-common-msgs
+Section: misc
+Priority: extra
+Maintainer: AI Robotics <ai-robotics@cs.uni-bremen.de>
+Build-Depends: debhelper (>= 7.0.0), ros-groovy-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-groovy-iai-common-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-data-vis-msgs, ros-groovy-designator-integration-msgs, ros-groovy-dna-extraction-msgs, ros-groovy-iai-content-msgs, ros-groovy-iai-kinematics-msgs, ros-groovy-iai-robosherlock-actions, ros-groovy-mln-robosherlock-msgs, ros-groovy-saphari-msgs, ros-groovy-scanning-table-msgs, ros-groovy-sherlock-sim-msgs
+Description: Message definitions created and used by the Institute for Artificial Intelligence research group at the University of Bremen
