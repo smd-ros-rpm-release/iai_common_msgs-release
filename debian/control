@@ -1,0 +1,12 @@
+Source: ros-groovy-iai-kinematics-msgs
+Section: misc
+Priority: extra
+Maintainer: Georg Bartels <georg.bartels@cs.uni-bremen.de>
+Build-Depends: debhelper (>= 7.0.0), ros-groovy-catkin, ros-groovy-geometry-msgs, ros-groovy-message-generation, ros-groovy-sensor-msgs, ros-groovy-std-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-groovy-iai-kinematics-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-geometry-msgs, ros-groovy-message-runtime, ros-groovy-sensor-msgs, ros-groovy-std-msgs
+Description: Ensemble of messages to communicate/request kinematics-related issues. NOTE/DISCLAIMER: A lot of these messages have been salvaged from now deprecated packages arm_navigation_msgs and kinematics_msgs. We acknowledge original authorship of these messages to all involved people (I, Georg, do not know them by name).
