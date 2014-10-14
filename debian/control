@@ -1,0 +1,12 @@
+Source: ros-groovy-iai-robosherlock-actions
+Section: misc
+Priority: extra
+Maintainer: Georg Bartels <georg.bartels@cs.uni-bremen.de>
+Build-Depends: debhelper (>= 9.0.0), ros-groovy-actionlib-msgs, ros-groovy-catkin, ros-groovy-designator-integration-msgs, ros-groovy-geometry-msgs, ros-groovy-message-generation, ros-groovy-message-runtime, ros-groovy-shape-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-groovy-iai-robosherlock-actions
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-actionlib-msgs, ros-groovy-designator-integration-msgs, ros-groovy-geometry-msgs, ros-groovy-message-runtime, ros-groovy-shape-msgs
+Description: Action interfaces to trigger perception via the Robosherlock perception system.
