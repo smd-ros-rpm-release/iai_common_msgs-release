@@ -1,0 +1,12 @@
+Source: ros-groovy-iai-content-msgs
+Section: misc
+Priority: extra
+Maintainer: ferko <ferko@todo.todo>
+Build-Depends: debhelper (>= 7.0.0), ros-groovy-catkin, ros-groovy-message-generation, ros-groovy-sensor-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-groovy-iai-content-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-message-runtime, ros-groovy-sensor-msgs
+Description: Message definitions for transporting multiple grasping-related datasets at the same time.
