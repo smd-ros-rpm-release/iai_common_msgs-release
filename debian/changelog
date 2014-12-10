@@ -1,0 +1,32 @@
+ros-hydro-iai-robosherlock-actions (0.0.3-1quantal) quantal; urgency=high
+
+  * changed RS action interface to use designator msgs
+  * Updated changelog of iai_robosherlock_actions.
+  * Deleted action-definition DetectPancake
+  * Added action-definition SimplePerceiveObject.
+  * Renamed iai_pancake_perception_action into iai_robosherlock_actions.
+  * Contributors: Ferenc Balint-Benczedi, Georg Bartels
+
+ -- Georg Bartels <georg.bartels@cs.uni-bremen.de>  Mon, 13 Oct 2014 22:00:00 -0000
+
+ros-hydro-iai-robosherlock-actions (0.0.2-1quantal) quantal; urgency=high
+
+  * Increased version numbers
+  * renamed iai_pancake_perception_action into iai_robosherlock_actions
+  * added new action-definition 'SimplePerceiveObject'
+  * removed action-definition 'DetectPancake'
+  * Contributiors: Georg Bartels
+
+ -- Georg Bartels <georg.bartels@cs.uni-bremen.de>  Mon, 23 Jun 2014 22:00:00 -0000
+
+ros-hydro-iai-robosherlock-actions (0.0.1-1quantal) quantal; urgency=high
+
+  * Corrected version numbers
+  * Corrected some information in package.xml and CMakeLists.txt as reported by catkin_lint
+  * catkinezed pancake perception added metapackage
+  * Added simple action interface for pancake perception.
+  * Contributors: Ferenc Balint-Benczedi, Georg Bartels, Jan Winkler
+
+ -- Georg Bartels <georg.bartels@cs.uni-bremen.de>  Thu, 15 May 2014 22:00:00 -0000
+
+

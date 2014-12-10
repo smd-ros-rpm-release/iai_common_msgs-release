@@ -1,0 +1,12 @@
+Source: ros-hydro-iai-robosherlock-actions
+Section: misc
+Priority: extra
+Maintainer: Georg Bartels <georg.bartels@cs.uni-bremen.de>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-actionlib-msgs, ros-hydro-catkin, ros-hydro-designator-integration-msgs, ros-hydro-geometry-msgs, ros-hydro-message-generation, ros-hydro-message-runtime, ros-hydro-shape-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-hydro-iai-robosherlock-actions
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-actionlib-msgs, ros-hydro-designator-integration-msgs, ros-hydro-geometry-msgs, ros-hydro-message-runtime, ros-hydro-shape-msgs
+Description: Action interfaces to trigger perception via the Robosherlock perception system.
