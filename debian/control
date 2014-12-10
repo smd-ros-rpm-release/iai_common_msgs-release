@@ -1,0 +1,12 @@
+Source: ros-hydro-iai-control-msgs
+Section: misc
+Priority: extra
+Maintainer: Georg Bartels <georg.bartels@cs.uni-bremen.de>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-catkin, ros-hydro-message-generation, ros-hydro-std-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-hydro-iai-control-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-message-runtime, ros-hydro-std-msgs
+Description: Message defintions to talk to the motion controllers developed in the IAI institute, University Bremen, Germany.
