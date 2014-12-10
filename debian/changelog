@@ -1,0 +1,20 @@
+ros-hydro-data-vis-msgs (0.0.3-1precise) precise; urgency=high
+
+  * Added datatype for timeline diagrams (Gantt-Style)
+  * Contributors: Moritz Tenorth
+
+ -- ferko <arne@todo.todo>  Mon, 13 Oct 2014 22:00:00 -0000
+
+ros-hydro-data-vis-msgs (0.0.1-1precise) precise; urgency=high
+
+  * Added package descriptions and fixed licenses where applicable
+  * added tree diagram to message
+  * added variables for width, height and font size
+  * added constant for type bar chart
+  * added missing package.xml in data_vis_msgs
+  * added chart identifier
+  * Contributors: Arne Stefes, Jan Winkler, Moritz Tenorth
+
+ -- ferko <arne@todo.todo>  Thu, 15 May 2014 22:00:00 -0000
+
+
