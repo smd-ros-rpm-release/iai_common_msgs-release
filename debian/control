@@ -1,0 +1,12 @@
+Source: ros-indigo-person-msgs
+Section: misc
+Priority: extra
+Maintainer: jworch <jworch@cs.uni-bremen.de>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-geometry-msgs, ros-indigo-message-generation
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-person-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-geometry-msgs, ros-indigo-message-runtime
+Description: Message definitions for detected persons from within RoboSherlock
