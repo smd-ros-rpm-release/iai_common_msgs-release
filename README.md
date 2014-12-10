@@ -1,3 +1,39 @@
+## iai_common_msgs (hydro) - 0.0.3-1
+
+The packages in the `iai_common_msgs` repository were released into the `hydro` distro by running `/usr/bin/bloom-release iai_common_msgs --track hydro --rosdistro hydro` on `Wed, 10 Dec 2014 08:50:45 -0000`
+
+These packages were released:
+- `data_vis_msgs`
+- `designator_integration_msgs`
+- `dna_extraction_msgs`
+- `grasp_stability_msgs`
+- `iai_common_msgs`
+- `iai_content_msgs`
+- `iai_control_msgs`
+- `iai_kinematics_msgs`
+- `iai_robosherlock_actions`
+- `iai_urdf_msgs`
+- `mln_robosherlock_msgs`
+- `person_msgs`
+- `saphari_msgs`
+- `scanning_table_msgs`
+- `sherlock_sim_msgs`
+
+Version of package(s) in repository `iai_common_msgs`:
+- upstream repository: https://github.com/code-iai/iai_common_msgs.git
+- release repository: https://github.com/code-iai-release/iai_common_msgs-release.git
+- rosdistro version: `0.0.3-0`
+- old version: `0.0.3-0`
+- new version: `0.0.3-1`
+
+Versions of tools used:
+- bloom version: `0.5.15`
+- catkin_pkg version: `0.2.4`
+- rosdep version: `0.10.30`
+- rosdistro version: `0.4.0`
+- vcstools version: `0.1.35`
+
+
 ## iai_common_msgs (indigo) - 0.0.3-0
 
 The packages in the `iai_common_msgs` repository were released into the `indigo` distro by running `/usr/bin/bloom-release iai_common_msgs --track indigo --rosdistro indigo --new-track` on `Tue, 14 Oct 2014 08:18:16 -0000`
